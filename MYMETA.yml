@@ -1,9 +1,9 @@
 ---
-abstract: 'Checks balances and transactions of MUFG-DIRECT<http://direct.bk.mufg.jp/> account.'
+abstract: 'Checks balances and transactions of MUFG-DIRECT account.'
 author:
   - 'Yusuke Maeda <dev.perfumed.garden@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 6.59
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 0
@@ -28,4 +28,5 @@ requires:
   List::MoreUtils: 0
   Time::Piece: 0
   WWW::Mechanize: 0
-version: 0.01
+  perl: 5.008001
+version: 0.02

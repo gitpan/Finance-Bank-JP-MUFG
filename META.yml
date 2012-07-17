@@ -1,11 +1,11 @@
 ---
-abstract: 'Checks balances and transactions of MUFG-DIRECT<http://direct.bk.mufg.jp/> account.'
+abstract: 'Checks balances and transactions of MUFG-DIRECT account.'
 author:
   - 'Yusuke Maeda <dev.perfumed.garden@gmail.com>'
 build_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 6.59
 configure_requires:
-  ExtUtils::MakeMaker: 6.36
+  ExtUtils::MakeMaker: 6.59
 distribution_type: module
 dynamic_config: 1
 generated_by: 'Module::Install version 1.06'
@@ -30,7 +30,8 @@ requires:
   List::MoreUtils: 0
   Time::Piece: 0
   WWW::Mechanize: 0
+  perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/perforb/p5-Finance-Bank-JP-MUFG.git
-version: 0.01
+version: 0.02
