@@ -42,6 +42,7 @@
             "HTML::TreeBuilder::XPath" : "0",
             "LWP::Protocol::https" : "0",
             "List::MoreUtils" : "0",
+            "Test::MockObject::Extends" : "0",
             "Time::Piece" : "0",
             "WWW::Mechanize" : "0",
             "perl" : "5.008001"
@@ -57,5 +58,5 @@
          "url" : "https://github.com/perforb/p5-Finance-Bank-JP-MUFG.git"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }

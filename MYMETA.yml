@@ -5,9 +5,9 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.59
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: 6.59
 dynamic_config: 0
-generated_by: 'ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921'
+generated_by: 'Module::Install version 1.06, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,8 +15,9 @@ meta-spec:
 name: Finance-Bank-JP-MUFG
 no_index:
   directory:
-    - t
     - inc
+    - t
+    - xt
 requires:
   Carp: 0
   Cwd: 0
@@ -26,7 +27,11 @@ requires:
   HTML::TreeBuilder::XPath: 0
   LWP::Protocol::https: 0
   List::MoreUtils: 0
+  Test::MockObject::Extends: 0
   Time::Piece: 0
   WWW::Mechanize: 0
   perl: 5.008001
-version: 0.03
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/perforb/p5-Finance-Bank-JP-MUFG.git
+version: 0.04
