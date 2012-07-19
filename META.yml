@@ -28,11 +28,10 @@ requires:
   HTML::TreeBuilder::XPath: 0
   LWP::Protocol::https: 0
   List::MoreUtils: 0
-  Test::MockObject::Extends: 0
   Time::Piece: 0
   WWW::Mechanize: 0
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
   repository: https://github.com/perforb/p5-Finance-Bank-JP-MUFG.git
-version: 0.04
+version: 0.05

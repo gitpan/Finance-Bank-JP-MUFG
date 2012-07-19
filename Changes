@@ -1,5 +1,8 @@
 Revision history for Perl extension Finance::Bank::JP::MUFG
 
+0.05    Thu Jul 19 08:06:48 2012
+        - dependency resolution
+
 0.04    Thu Jul 19 08:02:12 2012
         - dependency resolution
 
